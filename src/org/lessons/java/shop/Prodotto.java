@@ -12,7 +12,7 @@ public class Prodotto {
 
     private static Random randValueGen = new Random();
 
-    public Prodotto(String name, String description, double price) {
+    public Prodotto(String name, String brand, double price) {
 
         this.code = randValueGen.nextInt(10000);
         this.name = name;

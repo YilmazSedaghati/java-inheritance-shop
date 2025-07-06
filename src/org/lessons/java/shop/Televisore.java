@@ -5,9 +5,9 @@ public class Televisore extends Prodotto {
     private double dimension;
     private boolean smart;
 
-    public Televisore ( String name, String brand, double ivaPrice, double dimension, boolean smart) {
+    public Televisore ( String name, String brand, double price, double dimension, boolean smart) {
 
-        super(name, brand, ivaPrice);
+        super(name, brand, price);
         this.dimension = dimension;
         this.smart = smart;
 
@@ -21,6 +21,12 @@ public class Televisore extends Prodotto {
         return smart;
     }
 
-}
+    public void setDimension(double dimension) {
+        this.dimension = dimension;
+    }
 
-//Televisori, caratterizzati dalle dimensioni e dalla proprietà di essere smart oppure no
+    public void setSmart(boolean smart) {
+        this.smart = smart;
+    }
+
+}

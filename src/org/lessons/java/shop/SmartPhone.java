@@ -5,18 +5,27 @@ public class SmartPhone extends Prodotto {
     private String imei;
     private int memory;
 
-    public SmartPhone ( String name, String brand, double ivaPrice, String imei, int memory ) {
-        super(name, brand, ivaPrice);
+    public SmartPhone ( String name, String brand, double price, String imei, int memory ) {
+        super(name, brand, price);
         this.imei = imei;
         this.memory = memory;
     }
 
     public String getImei () {
-        return imei;
+        return this.imei;
     }
 
+
     public int getMemory() {
-        return memory;
+        return this.memory;
+    }
+
+    public void setImei(String imei) {
+        this.imei = imei;
+    }
+
+    public void setMemory(int memory) {
+        this.memory = memory;
     }
 
 }

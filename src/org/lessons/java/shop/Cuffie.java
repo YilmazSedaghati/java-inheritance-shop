@@ -5,11 +5,11 @@ public class Cuffie extends Prodotto {
     private String colour;
     private boolean wireless;
 
-    public Cuffie ( String name, String brand, double ivaPrice, String colour, boolean wireless) {
+    public Cuffie ( String name, String brand, double price, String colour, boolean wireless) {
 
-        super(name, brand, ivaPrice);
+        super(name, brand, price);
         this.colour = colour;
-        this.boolean = wireless;
+        this.wireless = wireless;
 
     }
 
@@ -22,6 +22,3 @@ public class Cuffie extends Prodotto {
     }
 
 }
-
-
-//Cuffie, caratterizzate dal colore e se sono wireless o cablate
