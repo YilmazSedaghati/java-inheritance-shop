@@ -28,4 +28,9 @@ public class SmartPhone extends Prodotto {
         this.memory = memory;
     }
 
+    @Override
+    public String toString( ) { 
+        return super.toString() + ", con codice IMEI: " + this.imei + " e " + this.memory + " GB di memoria";
+    }
+
 }

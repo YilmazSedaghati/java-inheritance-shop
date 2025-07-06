@@ -64,4 +64,13 @@ public class Prodotto {
         return ivaPrice;
     }
 
+    @Override
+    public String toString( ) {
+        return "Il Prodotto da te scelto è con il codice " + this.code
+        + " e si chiama " + this.name 
+        + " del marchio " + this.brand 
+        + " che costa " + this.price
+        + " e che ivato viene in euro " + this.ivaPrice ;
+    }
+
 }

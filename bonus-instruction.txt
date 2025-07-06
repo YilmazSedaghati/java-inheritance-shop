@@ -1,0 +1,3 @@
+BONUS:
+Create un metodo (statico) che restituisca il codice con un pad left di 0 per arrivare a 8 caratteri
+(ad esempio codice 91 diventa 00000091, mentre codice 123445567 resta come è)
